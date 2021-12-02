@@ -1,21 +1,14 @@
-# Aoc2021
+# My advent of code solutions for 2021
 
-**TODO: Add description**
+_Please don't judge my code kthnkx_
 
-## Installation
+This time I decided to go with [livebook](https://livebook.dev) and
+[elixir](https://elixir-lang.org). To run my solutions (why would
+you tho):
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `aoc2021` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:aoc2021, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/aoc2021>.
+- Install livebook
+- Run the livebook server
+- Connect to the `mix project` runtime in livebook
+- Open `lib/day_<number>.livemd` in livebook
+- Evaluate the cells!
 
