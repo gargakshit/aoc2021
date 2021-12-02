@@ -1,6 +1,6 @@
 <!-- livebook:{"persist_outputs":true} -->
 
-# Template
+# Day 03
 
 ## Read Input
 
@@ -24,8 +24,6 @@ input =
 
 ## Part 01
 
-
-
 <!-- livebook:{"reevaluate_automatically":true} -->
 
 ```elixir
@@ -37,8 +35,6 @@ input =
 ```
 
 ## Part 02
-
-
 
 <!-- livebook:{"reevaluate_automatically":true} -->
 
