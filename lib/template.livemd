@@ -1,0 +1,27 @@
+# Template
+
+## Input
+
+<!-- livebook:{"livebook_object":"cell_input","name":"Problem Input","type":"textarea","value":"1\n2\n3"} -->
+
+```elixir
+defmodule Input do
+  def read_textarea_into(arr \\ []) do
+    input = IO.gets("Problem Input")
+
+    if input == :eof,
+      do: arr,
+      else: read_textarea_into(arr ++ [String.trim(input)])
+  end
+
+  defp parse_num(num),
+    do:
+      num
+      |> Integer.parse()
+      |> elem(0)
+end
+
+input_arr =
+  Input.read_textarea_into()
+  |> Input.parse_num()
+```
